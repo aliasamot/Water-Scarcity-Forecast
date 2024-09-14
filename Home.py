@@ -193,7 +193,7 @@ with tab1:
             st.markdown("""
         Metro Manila is one specific region where water scarcity is felt with 13 million of its population experiencing water shortages stated by the National Public Radio in 2023. In more recent events, according to the report of the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA), CALABARZON region has been facing droughts since 2024 started. Cavite was hit with drought, Rizal with dry spell, and Laguna and Batangas with dry conditions base on the study of Odong in 2024. It was also reported by the GMA news that Barangay Bucandala 3, an area in Imus Cavite, experienced an unsteady water supply for 6 months in 2022. This indicates the urgency of recognizing such nationwide phenomenon.
         """)
-with tab2:
+
     st.markdown("""
     ### Factors affecting water scarcity
     The notable factors which contribute to water scarcity are heat index, water pollution, population growth, agricultural activities, and climate change. 
@@ -216,6 +216,7 @@ with tab2:
     </ul>
     """, unsafe_allow_html=True)
 
+with tab2:
 
 # Information about Critical Ratio, Heat Index, and Rainfall
     st.markdown("""
