@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import base64
 
+
     
 # Injecting CSS for custom fonts, background, and layout
 st.markdown(
