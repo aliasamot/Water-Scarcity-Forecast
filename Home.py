@@ -227,7 +227,7 @@ with tab2:
                 
     """)
     if st.button("Critical Ratio"):
-        st.switch_page("Water-Scarcity-Forecast/Critical Ratio.py")
+        st.switch_page("pages\Critical Ratio.py")
 
     st.markdown("""        
     ### Heat Index
@@ -236,7 +236,7 @@ with tab2:
     """)
 
     if st.button("Heat Index"):
-        st.switch_page("Water-Scarcity-Forecast/Heat Index.py")   
+        st.switch_page("pages\Heat Index.py")   
 
     st.markdown("""    
     ### Rainfall
@@ -245,7 +245,7 @@ with tab2:
     """)
 
     if st.button("Rainfall"):
-        st.switch_page("Water-Scarcity-Forecast/Rainfall.py")
+        st.switch_page("pages\Rainfall.py")
 
 # Custom footer
 st.markdown("""
