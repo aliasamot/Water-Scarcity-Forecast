@@ -219,11 +219,11 @@ with tab1:
 
 with tab2:
     if st.button("Critical Ratio"):
-        st.switch_page("aliasamot/Water-Scarcity-Forecast/pages/Critical Ratio.py")
+        st.switch_page("aliasamot/Water-Scarcity-Forecast/Critical Ratio.py")
     if st.button("Heat Index"):
-        st.switch_page("aliasamot/Water-Scarcity-Forecast/pages/Heat Index.py")
+        st.switch_page("aliasamot/Water-Scarcity-Forecast/Heat Index.py")
     if st.button("Rainfall"):
-        st.switch_page("aliasamot/Water-Scarcity-Forecast/pages/Rainfall.py")
+        st.switch_page("aliasamot/Water-Scarcity-Forecast/Rainfall.py")
 
 # Custom footer
 st.markdown("""
