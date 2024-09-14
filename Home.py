@@ -193,7 +193,7 @@ with tab1:
             st.markdown("""
         Metro Manila is one specific region where water scarcity is felt with 13 million of its population experiencing water shortages stated by the National Public Radio in 2023. In more recent events, according to the report of the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA), CALABARZON region has been facing droughts since 2024 started. Cavite was hit with drought, Rizal with dry spell, and Laguna and Batangas with dry conditions base on the study of Odong in 2024. It was also reported by the GMA news that Barangay Bucandala 3, an area in Imus Cavite, experienced an unsteady water supply for 6 months in 2022. This indicates the urgency of recognizing such nationwide phenomenon.
         """)
-
+with tab2:
     st.markdown("""
     ### Factors affecting water scarcity
     The notable factors which contribute to water scarcity are heat index, water pollution, population growth, agricultural activities, and climate change. 
@@ -217,17 +217,38 @@ with tab1:
     """, unsafe_allow_html=True)
 
 
-with tab2:
+# Information about Critical Ratio, Heat Index, and Rainfall
+    st.markdown("""
+    ### Critical Ratio
+
+    The ratio of water consumption to the available water supply in an area.
+                
+    """)
     if st.button("Critical Ratio"):
-        st.switch_page("Critical Ratio.py")
+        st.switch_page("/workspaces/Water-Scarcity-Forecast/project/pages/Critical Ratio.py")
+
+    st.markdown("""        
+    ### Heat Index
+
+    Also known as the apparent temperature, it indicates the level of discomfort that the person is expected to experience due to the combined effects of air temperature and humidity. The heat index is directly proportional to the humidity. Therefore, as humidity increases, the heat index also increases, and when the humidity decreases, the heat index also decreases. 
+    """)
+
     if st.button("Heat Index"):
-        st.switch_page("Heat Index.py")
+        st.switch_page("/workspaces/Water-Scarcity-Forecast/project/pages/Heat Index.py")   
+
+    st.markdown("""    
+    ### Rainfall
+
+    The total amount of rain falling in a specific area within a particular time frame.
+    """)
+
     if st.button("Rainfall"):
-        st.switch_page("Rainfall.py")
+        st.switch_page("/workspaces/Water-Scarcity-Forecast/project/pages/Rainfall.py")
 
 # Custom footer
 st.markdown("""
 <footer>
-    Developed by [Your Name] | Year
+   Gen. Juan Castaneda Senior High School | © 2025
 </footer>
 """, unsafe_allow_html=True)
+
