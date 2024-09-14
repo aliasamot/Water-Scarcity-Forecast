@@ -221,7 +221,7 @@ with tab2:
     if st.button("Critical Ratio"):
         st.switch_page("Water-Scarcity-Forecast/Critical Ratio.py")
     if st.button("Heat Index"):
-        # st.switch_page("Water-Scarcity-Forecast/Heat Index.py")
+        st.switch_page("Water-Scarcity-Forecast/Heat Index.py")
     if st.button("Rainfall"):
         st.switch_page("Water-Scarcity-Forecast/Rainfall.py")
 
