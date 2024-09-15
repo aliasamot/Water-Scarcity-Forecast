@@ -83,7 +83,7 @@ data = load_data(uploaded_file)
 # Display dataset
 if data is not None:
     st.subheader('Dataset Overview')
-    st.write(data.head())
+    st.write(data)
 
     # Select features and target
     st.sidebar.subheader("Model Parameters")
