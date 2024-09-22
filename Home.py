@@ -241,8 +241,13 @@ with tab2:
     st.markdown("""    
     ### Regression Analysis
 
-    if st.button("Regression Analysis"):
-        st.switch_page("pages/Regression Analysis.py")
+    # Create the button for Regression Analysis
+
+if st.button("Regression Analysis"):
+    st.experimental_set_query_params(page="Regression Analysis")
+    st.write("Navigating to Regression Analysis page...")
+    st.experimental_rerun()
+    
     """)
 
 # Custom footer
