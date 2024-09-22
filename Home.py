@@ -240,11 +240,10 @@ with tab2:
 
     st.markdown("""    
     ### Regression Analysis
-
+    """)
     if st.button("Regression Analysis"):
         st.switch_page("pages/Regression Analysis.py")
-    
-    """)
+
 
 # Custom footer
 st.markdown("""
