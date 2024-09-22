@@ -1,8 +1,6 @@
 import streamlit as st
 from PIL import Image
 import base64
-
-
     
 # Injecting CSS for custom fonts, background, and layout
 st.markdown(
@@ -13,9 +11,12 @@ st.markdown(
         background-color: #D2E0FB
     }
     </style>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+    
     /* Button styles */
+
     .stButton > button {
         background-color: #7695FF;
         border-radius: 12px;
@@ -150,7 +151,6 @@ with tab1:
     with st.container():
      col1, col2 = st.columns([1, 1.3])
 
-
      with col1:
             st.image("water_scarcity.jpg", caption="© World Wildlife", width=300)
 
@@ -219,24 +219,12 @@ with tab1:
 
 with tab2:
 
-# Information about Critical Ratio, Heat Index, and Rainfall
-    st.markdown("""
-    ### Critical Ratio
-
-    The ratio of water consumption to the available water supply in an area.
-                
-    """)
-    if st.button("Critical Ratio"):
-        st.switch_page("project\pages\Critical Ratio.py")
-
+# Information about the factors
     st.markdown("""        
     ### Heat Index
 
     Also known as the apparent temperature, it indicates the level of discomfort that the person is expected to experience due to the combined effects of air temperature and humidity. The heat index is directly proportional to the humidity. Therefore, as humidity increases, the heat index also increases, and when the humidity decreases, the heat index also decreases. 
     """)
-
-    if st.button("Heat Index"):
-        st.switch_page("project\pages\Heat Index.py")   
 
     st.markdown("""    
     ### Rainfall
@@ -244,8 +232,18 @@ with tab2:
     The total amount of rain falling in a specific area within a particular time frame.
     """)
 
-    if st.button("Rainfall"):
-        st.switch_page("project\pages\Rainfall.py")
+    st.markdown("""    
+    ### Total Water Withdrawal
+
+    Total water withdrawal is the yearly freshwater withdrawal in which the freshwater is taken from ground or surface water sources and can be permanent or temporary. Then, transferred to a place of use.
+    """)
+
+    st.markdown("""    
+    ### Regression Analysis
+
+    if st.button("Regression Analysis"):
+        st.switch_page("pages/Regression Analysis.py")
+    """)
 
 # Custom footer
 st.markdown("""
@@ -253,4 +251,3 @@ st.markdown("""
    Gen. Juan Castaneda Senior High School | © 2025
 </footer>
 """, unsafe_allow_html=True)
-
