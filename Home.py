@@ -242,7 +242,7 @@ with tab2:
     ### Regression Analysis
     """)
     if st.button("Regression Analysis"):
-        st.switch_page("pages/Regression Analysis.py")
+        st.switch_page("Regression Analysis.py")
 
 
 # Custom footer
