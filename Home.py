@@ -241,8 +241,6 @@ with tab2:
     st.markdown("""    
     ### Regression Analysis
 
-    # Create the button for Regression Analysis
-
     if st.button("Regression Analysis"):
         st.switch_page("pages/Regression Analysis.py")
     
