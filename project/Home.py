@@ -242,7 +242,7 @@ with tab2:
     ### Regression Analysis
     """)
     if st.button("Regression Analysis"):
-        st.switch_page("/workspaces/Water-Scarcity-Forecast/pages/Regression Analysis.py")
+        st.switch_page("Water-Scarcity-Forecast/project/pages/Regression Analysis.py")
 
 
 # Custom footer
